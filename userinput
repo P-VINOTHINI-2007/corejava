@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+class UserInput {
+
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the name:");
+        String name = in.nextLine();
+
+        System.out.println("Enter your regno:");
+        int reg_no = in.nextInt();
+
+        in.nextLine(); // clear buffer
+
+        System.out.println("Enter the Department:");
+        String department = in.nextLine();
+
+        System.out.println("Enter the cgpa:");
+        float cgpa = in.nextFloat();
+
+        System.out.println("Name: " + name);
+        System.out.println("Regno: " + reg_no);
+        System.out.println("Department: " + department);
+        System.out.println("CGPA: " + cgpa);
+
+        in.close();
+    }
+}
