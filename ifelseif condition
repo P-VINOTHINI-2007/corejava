@@ -1,0 +1,22 @@
+public class ifelseif {
+    static void main(String[]args){
+        int age = 15;
+        if(age>=18){
+            System.out.println("adult");
+        }
+        else{
+            System.out.println("minor");
+if(age>=70){
+    System.out.println("oldage");
+}
+else{
+    System.out.println("young");
+}
+
+            }
+        
+        }
+    
+}
+
+
