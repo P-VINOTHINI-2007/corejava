@@ -1,0 +1,29 @@
+public class nestedif {
+    static void main(String[]args){
+        int age = 6;
+        if(age>=18){
+            System.out.println("adult");
+        if(age>=70){
+    System.out.println("oldage");
+}
+        else{
+            System.out.println("young");
+
+        }
+    }else{
+    System.out.println("minor");
+}
+if(age<=10){
+    System.out.println("child");
+
+}
+
+            }
+        
+        
+    
+}
+
+
+
+
