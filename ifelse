@@ -1,0 +1,13 @@
+class ifelsecon {
+     public static void main(String[]args){
+        
+        int age = 30;
+        if(age>=40){
+        System.out.println("Adult");
+         }
+        else{
+        System.out.println("Minor");
+
+    }
+}
+}
