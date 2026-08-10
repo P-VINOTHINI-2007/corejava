@@ -1,0 +1,16 @@
+public class specialnum {
+    public static void main(String[]args){
+        int m=12;
+        int n=45;
+        int result;
+        for( int i=m;i<=n;i++){
+            int d1=i%10;
+            int d2=i/10;
+            int sum=d1+d2;
+            int pro=d1*d2;
+            result=sum+pro;
+            if (result==i){
+                System.out.println(i+" ");
+            }
+        }
+    }}
