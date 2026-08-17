@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class sample{
+    public static void main(String[]args){
+        // declare arraylist->string
+    ArrayList<String>list=new ArrayList<>();
+        // add()->to insert the element end of the arrayList
+        list.add("is");
+        list.add("a");
+        System.out.println("Add:"+list.add("very"));
+        // addFirst()->to add the element front of arrayList
+        list.addFirst("he");
+        // to print the arraylist
+        list.addLast("good");
+        list.addLast("boy");
+            // to print the ArrayList
+            System.out.println("List:"+list);
+        
+        
+    }
+}
