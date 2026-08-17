@@ -1,0 +1,47 @@
+package arraylist; 
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class sample { 
+    public static void main(String[] args) { 
+        // declare arraylist->string 
+        ArrayList<String> list = new ArrayList<>(); 
+        
+        // add()->to insert the element end of the arrayList 
+        list.add("is"); 
+        list.add("a"); 
+        
+        // Prints "Add: true" because add() returns a boolean
+        System.out.println("Add:" + list.add("very")); 
+        
+        list.addFirst("he"); 
+        
+        list.addLast("good"); 
+        list.addLast("boy");
+        // set()-> to replace an element in a specfic index poistion
+        list.set(4,"bad");
+        list.set(2,"also");
+        
+        // to print the ArrayList 
+        System.out.println("List:" + list); 
+        // get(index)->to retrive an element from list
+        System.out.println("second element:"+list.get(1));
+        System.out.println("using for loop prit retrive list");
+        // to retrive all the element from arraylist
+        for(int i=0;i<list.size();i++){
+            System.out.print(list.get(i)+"");
+
+        }
+        for(String s:list){
+            System.out.println(s+"");
+        }
+        //remove 
+        list.remove("boy");
+        // remove using index
+        list.remove(3);
+        System.out.println(list);
+        // sort the  list
+        Collections.sort(list);
+
+    } 
+}
