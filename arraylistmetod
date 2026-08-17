@@ -1,0 +1,27 @@
+package arraylist; // Fixed package syntax
+import java.util.ArrayList;
+
+public class sample { 
+    public static void main(String[] args) { 
+        // declare arraylist->string 
+        ArrayList<String> list = new ArrayList<>(); 
+        
+        // add()->to insert the element end of the arrayList 
+        list.add("is"); 
+        list.add("a"); 
+        
+        // Prints "Add: true" because add() returns a boolean
+        System.out.println("Add:" + list.add("very")); 
+        
+        list.addFirst("he"); 
+        
+        list.addLast("good"); 
+        list.addLast("boy");
+        list.set(4,"bad");
+        list.set(2,"also");
+         
+        
+        // to print the ArrayList 
+        System.out.println("List:" + list); 
+    } 
+}
