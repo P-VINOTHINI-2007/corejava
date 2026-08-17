@@ -1,0 +1,21 @@
+package arraylist;
+import java.util.HashMap;
+
+public class hashmap {
+    public static void main(String[]args){
+        HashMap<String,String> map=new HashMap<>();
+        // to store key value pairs in hashmap
+        map.put("name","vinothini");
+        map.put("house no","1/204");
+        map.put("area","pavalandhur");
+        map.put("district","Dharmapuri");
+        System.out.println("original map:"+map);
+
+
+        // update the element in hashmap
+        map.put("house no","1/36A");
+        System.out.println("after upadate the house no:"+map);
+
+    }
+    
+}
