@@ -1,0 +1,13 @@
+package string;
+
+public record stringcomp() {
+    public static void main(String[]args){
+        // "=="    ".equals()"
+        String s1=new String("meera");
+        String s2="meera";
+        System.out.println("s1 s2 is equal"+(s1==s2));
+
+    
+    }
+    
+}
